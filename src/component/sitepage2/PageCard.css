@@ -1,0 +1,42 @@
+.cardBody {
+    width: 24vw;
+    box-shadow: 0 0 12px #a2a2ee52, 0 0 6px #9797cf52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.cardimage {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin: 18px;
+}
+
+.cardtitle {
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.cardtext {
+    font-size: 1.1vw;
+    font-family: system-ui;
+    padding: 0 32px;
+}
+@media (min-width:200px) and (max-width: 576px) {
+    .cardBody {
+        width: 100%;
+        padding: 20px;
+    }
+    .cardtitle {
+        font-size:18px;
+    }
+    
+    .cardtext {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,56 @@
+.rev-cardBody {
+    width: 22vw;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 30px;
+}
+.review-body {
+    padding:10px;
+}
+
+.rev-cardimage {
+    height: 14vw;
+    width: 22vw;
+    border-radius: 10px;
+}
+.rev-cardtitle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 0;
+}
+.star{
+    background-color: rgb(215, 160, 121);
+    border-radius: 100%;
+    margin-right: 2px;
+    color:antiquewhite;
+    font-size: 18px;
+   
+}
+.review-text {
+    font-size: 1vw;
+    opacity: .8;
+    height: 14vw;
+    overflow: auto;
+}
+
+.rev-cardtext {
+    font-size: 1vw;
+    font-family: system-ui;
+    font-weight: 600;
+}
+@media (min-width:200px) and (max-width: 576px) {
+    .rev-cardBody {
+        width: 100%;
+        padding: 20px;
+    }
+    .rev-cardtitle {
+        font-size:18px;
+    }
+    
+    .rev-cardtext {
+        font-size: 16px;
+    }
+}

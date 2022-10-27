@@ -1,0 +1,42 @@
+.dgn-cardBody {
+    width: 22vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 30px;
+}
+.dgn-textbody {
+    padding-left: 20px;
+}
+
+.dgn-cardimage {
+    height: 12vw;
+    width:20vw;
+    margin: 1vw;
+}
+.dgn-cardtitle {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dgn-cardtext {
+    font-size: 1vw;
+    font-family: system-ui;
+    font-weight: 600;
+}
+@media (min-width:200px) and (max-width: 576px) {
+    .dgn-cardBody {
+        width: 100%;
+        padding: 20px;
+    }
+    .dgn-cardtitle {
+        font-size:18px;
+    }
+    
+    .dgn-cardtext {
+        font-size: 16px;
+    }
+}
