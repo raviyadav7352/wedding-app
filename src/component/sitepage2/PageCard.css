@@ -1,12 +1,14 @@
 .cardBody {
-    width: 24vw;
-    box-shadow: 0 0 12px #a2a2ee52, 0 0 6px #9797cf52;
+    width: 18rem;
+    height: 12rem;
+    box-shadow: 0 0 12px #a2a2ee52;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #fff;
+    margin-bottom: 10px;
 }
 
 .cardimage {
@@ -18,12 +20,12 @@
 }
 
 .cardtitle {
-    font-size: 1.4vw;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .cardtext {
-    font-size: 1.1vw;
+    font-size: 14px;
     font-family: system-ui;
     padding: 0 32px;
 }
@@ -31,6 +33,10 @@
     .cardBody {
         width: 100%;
         padding: 20px;
+        height: auto;
+        margin-bottom: 0;
+        box-shadow: 0 0 50px rgb(0 0 0 / 40%);
+
     }
     .cardtitle {
         font-size:18px;
@@ -39,4 +45,5 @@
     .cardtext {
         font-size: 16px;
     }
+    
 }

@@ -1,37 +1,35 @@
-.page3 {
-    padding: 7vw;
+.page7 {
+    padding: 6% 10%;
     text-align: center;
     background-color: azure;
 }
 
-.page3-section {
+.page7-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 2vw;
+    justify-content:space-between;
+    gap: 3vw;
 }
 
-.page3-text {
+.page7-text {
     margin-bottom: 4vw;
 }
 
-.page3-heading {
+.page7-heading {
     font-weight: bold;
     font-size: 2.7vw;
 }
 @media (min-width:200px) and (max-width:576px){
-    .page3-section {
+    .page7-section {
         gap:16px;
     }
-    .page3-heading {
+    .page7-heading {
         font-size: 26px;
     }
-    .page3-text {
+    .page7-text {
         margin-bottom: 4vw;
-        font-weight: 500;
     }
-    .page3 {
-        text-align: center;
-        padding: 5vw;
+    .page7 {
+        padding: 10px;
     }
 }

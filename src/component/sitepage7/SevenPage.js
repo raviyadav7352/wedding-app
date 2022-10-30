@@ -1,7 +1,7 @@
 import React from 'react';
 import PakageCard from '../sitepage2/PakageCard';
-import './ThirdPage.css';
-const ThirdPage = (props) => {
+import './SevenPage.css';
+const SevenPage = (props) => {
     let cardData = [
         { imgname: "wedding1", title: "Modern Reception Design", cost:"3,50,000" },
         { imgname: "wedding2", title: "Modern Reception Design", cost:"2,50,600" },
@@ -14,13 +14,13 @@ const ThirdPage = (props) => {
     ]
     return (
         <React.Fragment>
-            <div className='page3'>
-                <h2 className='page3-heading'>Packages</h2>
-                <p className='page3-text'>Convenient packages & reliable pricing</p>
-                <section className='page3-section'>
+            <div className='page7'>
+                <h2 className='page7-heading'>Packages</h2>
+                <p className='page7-text'>Convenient packages & reliable pricing</p>
+                <section className='page7-section'>
                     {cardData.map(data =>
                         <PakageCard
-                            key={data.title}
+                            key={Math.random(12)}
                             // imgname={data.imgname}
                             title={data.title}
                             price={data.cost}
@@ -31,4 +31,4 @@ const ThirdPage = (props) => {
         </React.Fragment>
     )
 }
-export default ThirdPage;
+export default SevenPage;

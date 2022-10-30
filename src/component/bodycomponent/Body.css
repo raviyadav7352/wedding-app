@@ -1,0 +1,19 @@
+.page {
+    background: #dcf7f669;
+    padding: 6% 10%;
+    text-align: center;
+}
+
+
+.page-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3vw;
+}
+@media (min-width:200px) and (max-width:576px){
+    
+    .page {
+        padding: 0px;
+    }
+}

@@ -1,37 +1,183 @@
-.page2 {
-    background: #dcf7f669;
-    padding: 7vw;
+.page2-content{
+    position: relative;
 }
-
-
-.page2-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 3vw;
+.page2nd {
+    padding-top: 16%;
 }
-
-.page2-text {
-    margin-bottom: 4vw;
+.page2-content > img{
+    height: 33rem;
+    width: 100%;
+    object-fit: cover;
 }
-
+.page2-texts {
+    position: absolute;
+    top: 7rem;
+    padding-left: 6rem;
+    text-align: start;
+}
 .page2-heading {
+    font-size: 56px;
     font-weight: bold;
-    font-size: 2.7vw;
+    text-transform: capitalize;
 }
-@media (min-width:200px) and (max-width:576px){
-    .page2-section {
-        gap:0px;
+.page2-text {
+    margin-top: 45px;
+    font-size: 18px;
+} 
+.form-input {
+    position: absolute;
+    left: -1rem;
+    bottom: -1.5rem;
+    width: 50rem;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    /* min-height: 11rem; */
+    background: whitesmoke;
+    padding: 25px;
+    box-shadow: 1px 2px 7px rgb(0 0 0 / 30%), inset 0 0 10px #d3d3e0c7;
+}
+.form-input .stline {
+    border-right: 2px solid #d3d3d3a8;
+    height: 70px;
+    margin: 0 50px;
+}
+
+/* .form-input .entrybtn{
+    padding: 10px 20px;
+    font-size: 16px;
+
+} */
+.design__card {
+    position: absolute;
+    top: -10rem;
+    right: -4rem;
+    border-radius: 14px;
+    width: 20rem;
+    height: 16rem;
+}
+.design__card .dgn-cardimage {
+    border-radius: 10px;
+    margin-top: 11px;
+    width: 90%;
+    height: 70%;
+}
+.design__card .logoimage {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 12px rgb(0 0 0 / 50%);
+}
+
+.design__card .page2-card {
+    display: flex;
+    margin-top: -13px;
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.design__card .image_logo {
+    gap: 5px;
+    display: flex;
+    text-align: start;
+    margin: 0;
+}
+
+.design__card .forsale {
+    background: #6ad379;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px -4px 4px 0;
+    color: darkmagenta;
+    cursor: pointer;
+}
+.design__card .forsale:hover{
+    background-color: gray;
+    color: aquamarine;
+}
+.design__card .forsale:active{
+    background-color: #3a97c6;
+    color: antiquewhite;
+}
+
+.design__card .forsale + p {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+}
+.price_sale {
+    width: 70px;
+}
+.design__card .namehead {
+    font-size: 13px;
+    font-weight: 600;
+    width: 140px;
+    padding-top: 4px;
+    text-transform: capitalize;
+}
+@media (min-width:200px) and (max-width:576px) {
+    .page{
+        padding:1px 0;
     }
+    .page2-content>img {
+        height: 28rem;
+        width: 100%;
+    }
+    
+    .page2-texts {
+
+        top: 0rem;
+        padding: 2rem;
+    }
+    
     .page2-heading {
-        font-size: 26px;
+        font-size: 28px;
+        padding-right: 70px;
     }
+    
     .page2-text {
-        margin-bottom: 4vw;
-        font-weight: 500;
+        margin-top: 20px;
+        font-size: 18px;
     }
-    .page2 {
-        text-align: center;
-        padding: 5vw;
+    
+    .form-input {
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        min-height: 11rem;
+        padding: 14px;
+        position: relative;
+        left: 0;
+        top: 0;
     }
+    .form-input .entrybtn {
+        padding: 0px;
+        width: 80%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .form-input .stline {
+        border-bottom: 2px solid #d3d3d3a8;
+        height: 0;
+        width: 38%;
+        margin: 0;
+        z-index: 8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .design__card {
+        position: static;
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+    
 }

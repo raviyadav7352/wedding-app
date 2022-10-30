@@ -11,7 +11,7 @@ const PakageCard = (props) => {
                 <img src='images/wedding4.jpg'  className="pkg-cardimage" alt="image card" />
             </div>
             <div className="pkg-cardbody">
-                <h5 className="pkg-cardtitle">{props.title}<span className="pkg-day">| 1 Day</span></h5>
+                <h5 className="pkg-cardtitle">{props.title} <span className="pkg-day"><b className="lvertical-line">|</b> 1 Day</span></h5>
                 <p className="pkg-cardtext opacity-75">
                     <span className="cardtext1">decor, </span>
                     <span className="cardtext2">photography, </span>

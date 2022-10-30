@@ -1,23 +1,24 @@
 .rev-cardBody {
-    width: 22vw;
+    width: 17rem;
     box-shadow: 0 0 10px rgb(0 0 0 / 30%);
     display: flex;
     flex-direction: column;
     background-color: #fff;
     border-radius: 8px;
-    margin: 30px;
+    margin-bottom: 10px;
 }
 .review-body {
-    padding:10px;
+    padding: 10px 20px;
+    text-align: start;
 }
 
 .rev-cardimage {
-    height: 14vw;
-    width: 22vw;
-    border-radius: 10px;
+    height: 12rem;
+    width: 100%;
+    border-radius: 8px;
 }
 .rev-cardtitle {
-    font-size: 1.2vw;
+    font-size: 14px;
     font-weight: bold;
     margin: 0;
 }
@@ -30,27 +31,26 @@
    
 }
 .review-text {
-    font-size: 1vw;
+    font-size: 12px;
     opacity: .8;
-    height: 14vw;
-    overflow: auto;
+    height: 10rem;
 }
 
 .rev-cardtext {
-    font-size: 1vw;
+    font-size: 14px;
     font-family: system-ui;
     font-weight: 600;
 }
 @media (min-width:200px) and (max-width: 576px) {
     .rev-cardBody {
         width: 100%;
-        padding: 20px;
-    }
-    .rev-cardtitle {
-        font-size:18px;
+        margin-bottom: 20px;
     }
     
-    .rev-cardtext {
-        font-size: 16px;
+    .rev-cardimage {
+        height: 10rem;
+        width: 84%;
+        margin: auto;
+        margin-top: 20px;
     }
 }

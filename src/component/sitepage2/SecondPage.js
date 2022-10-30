@@ -1,35 +1,28 @@
-import React from 'react';
-import PageCard from './PageCard';
-import './SecondPage.css';
+import Body from '../bodycomponent/Body';
+import FormInput from '../bodycomponent/FormInput';
+import DesignCard from './DesignCard';
+import './SecondPage.css'
 const SecondPage = (props) => {
-    let cardData = [
-        { imgname: "wedding1", title: "Decoration", text: "Professionally designed decor at attractive prices" },
-        { imgname: "wedding2", title: "Photography", text: "Expert candid and traditional photography teams starting at 22k" },
-        { imgname: "wedding3", title: "Videography", text: "High quality traditional and candid videography starting at just 20k" },
-        { imgname: "wedding4", title: "Makeup & hairstyling", text: "Talented make up artists starting at 12k who ensure you look your best" },
-        { imgname: "wedding1", title: "Mehndi", text: "Experienced mehendi artists who provide a wide range of designs  " },
-        { imgname: "wedding2", title: "Catering", text: "Delicious menus covering all cuisines and price ranges" },
-        { imgname: "wedding3", title: "Entertainment", text: "From DJs to traditional performances, we have high quality artists" },
-        { imgname: "wedding1", title: "Venue", text: "We help you find the right space that matches your budget " },
-        { imgname: "wedding1", title: "Invites", text: "Invite designs that perfectly match your decor theme" },
-    ]
     return (
-        <React.Fragment>
-            <div className='page2'>
-                <h2 className='page2-heading'>Services</h2>
-                <p className='page2-text'>High quality & reliable services, all in one place</p>
-                <section className='page2-section'>
-                    {cardData.map(data =>
-                        <PageCard
-                            key={data.title}
-                            imgname={data.imgname}
-                            title={data.title}
-                            text={data.text}
-                        />
-                    )}
-                </section>
-            </div>
-        </React.Fragment>
+        <Body className='page2nd'>
+            <section className='page2-content'>
+                <img src='images/flower6.jpg' />
+                <div className='page2-texts'>
+                    <h2 className='page2-heading'>speak to your certified wedding planner today</h2>
+                    <p className='page2-text'>Online package starting at just 35k & certified planner
+                        <br />at <b>no extra cost</b>
+                    </p>
+                </div>
+                <FormInput className='form-input'></FormInput>
+                <DesignCard 
+                className='design__card'
+                imgname="wedding3"
+                imagelogo="wedding2"
+                titlename="wedding package traditional"
+                textsale ="for sale"
+                price="78,000.00"></DesignCard>
+            </section>
+        </Body>
     )
 }
 export default SecondPage;

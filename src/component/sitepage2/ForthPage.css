@@ -1,0 +1,37 @@
+.page4 {
+    background: #dcf7f669;
+    padding: 6% 10%;
+}
+
+
+.page4-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.page4-text {
+    margin-bottom: 4vw;
+}
+
+.page4-heading {
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+@media (min-width:200px) and (max-width:576px){
+    .page4-section {
+        gap:0px;
+    }
+    .page4-heading {
+        font-size: 26px;
+    }
+    .page4-text {
+        margin-bottom: 4vw;
+        font-weight: 500;
+    }
+    .page4 {
+        text-align: center;
+        padding: 5vw;
+    }
+}
