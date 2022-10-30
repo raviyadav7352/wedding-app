@@ -58,7 +58,6 @@
 }
  .phone-input:focus,.phone-input:hover{
     background-color:whitesmoke;
-    width: 12rem;
     border: none;
 }
 .phone-input-btn:hover{
