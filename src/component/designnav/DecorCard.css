@@ -1,0 +1,17 @@
+.decor-image-box {
+    height: 18rem;
+    width: 15rem;
+}
+.decor-img{
+    height: 80%;
+    width: 100%;
+}
+.decor-title {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+.decor-text {
+    font-size: 14px;
+    opacity: .7;
+}

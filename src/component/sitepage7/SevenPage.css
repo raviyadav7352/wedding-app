@@ -7,8 +7,8 @@
 .page7-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
-    gap: 3vw;
+    justify-content: space-between;
+    gap: 2vw;
 }
 
 .page7-text {

@@ -1,7 +1,7 @@
 .page2-content{
     position: relative;
 }
-.page2nd {
+.page2 {
     padding-top: 16%;
 }
 .page2-content > img{
@@ -28,11 +28,10 @@
     position: absolute;
     left: -1rem;
     bottom: -1.5rem;
-    width: 50rem;
+    max-width: 50rem;
     display: flex;
     border-radius: 20px;
     align-items: center;
-    /* min-height: 11rem; */
     background: whitesmoke;
     padding: 25px;
     box-shadow: 1px 2px 7px rgb(0 0 0 / 30%), inset 0 0 10px #d3d3e0c7;
@@ -43,11 +42,6 @@
     margin: 0 50px;
 }
 
-/* .form-input .entrybtn{
-    padding: 10px 20px;
-    font-size: 16px;
-
-} */
 .design__card {
     position: absolute;
     top: -10rem;
@@ -92,9 +86,11 @@
     border-radius: 6px;
     font-size: 15px;
     font-weight: 600;
-    margin: 0px -4px 4px 0;
     color: darkmagenta;
     cursor: pointer;
+    width: 70px;
+    margin: auto;
+    float: right;
 }
 .design__card .forsale:hover{
     background-color: gray;
@@ -111,7 +107,7 @@
     margin: 0;
 }
 .price_sale {
-    width: 70px;
+    width: 80px;
 }
 .design__card .namehead {
     font-size: 13px;
@@ -121,7 +117,7 @@
     text-transform: capitalize;
 }
 @media (min-width:200px) and (max-width:576px) {
-    .page{
+    .page2{
         padding:1px 0;
     }
     .page2-content>img {

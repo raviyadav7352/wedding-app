@@ -4,7 +4,7 @@ import DesignCard from './DesignCard';
 import './SecondPage.css'
 const SecondPage = (props) => {
     return (
-        <Body className='page2nd'>
+        <Body className='page2'>
             <section className='page2-content'>
                 <img src='images/flower6.jpg' />
                 <div className='page2-texts'>
@@ -20,7 +20,7 @@ const SecondPage = (props) => {
                 imagelogo="wedding2"
                 titlename="wedding package traditional"
                 textsale ="for sale"
-                price="78,000.00"></DesignCard>
+                price="₹78,000"></DesignCard>
             </section>
         </Body>
     )

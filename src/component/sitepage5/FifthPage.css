@@ -1,0 +1,29 @@
+.page5-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 0vw;
+}
+
+.page5-text {
+    margin-bottom: 4vw;
+}
+
+.page5-heading {
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+@media (min-width:200px) and (max-width:576px){
+    .page5-section {
+        justify-content: space-between;
+    }
+    .page5-heading {
+        font-size: 26px;
+    }
+    .page5-text {
+        margin-bottom: 4vw;
+    }
+    .page5 {
+        padding:10% 10px;
+    }
+}

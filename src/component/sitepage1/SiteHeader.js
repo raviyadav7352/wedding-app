@@ -3,7 +3,7 @@ import './SiteHeader.css';
 const SiteHeader = () => {
     return (
         <React.Fragment>
-            <nav className="navbar navbar-fixed-top navbar-expand-sm navbar-light bg-light">
+            <nav className="navbar sticky-top navbar-expand-sm navbar-light bg-light">
                 <div className="container-fluid ms-sm-4 gap-sm-4 ps-4 pe-4">
                     
                     <a className="navbar-brand fw-semibold fs-2" href="#"><img src="images/mariage-logo.png"  height="40px" alt=""/>Meragi</a>

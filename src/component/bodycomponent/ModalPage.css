@@ -1,0 +1,16 @@
+.modal__body {
+    background: whitesmoke;
+    height: 100%;
+    width: 100%;
+    z-index: 12;
+    border-radius: inherit;
+    position: absolute;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 40%);
+    top: 0;
+}
+.closemodal {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin: 7px;
+}

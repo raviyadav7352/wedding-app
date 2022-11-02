@@ -1,0 +1,163 @@
+.noextra-cardBody {
+    width: 20rem;
+    height: 22rem;
+    box-shadow: 0 0 39px rgb(63 30 128 / 30%), inset 0 0 7px #f6e9ec;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+.noextra-cardbody {
+    text-align: start;
+    width: 100%;
+}
+
+.noextra-cardimage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.noextra-cardboby{
+    text-transform:capitalize;
+}
+.noextra-cardtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+.noextra-day {
+    color: gray;
+    margin-left: 20px;
+}
+
+.noextra-cardtext {
+    font-size: 13px;
+    font-family: system-ui;
+    font-weight: 700;
+    margin: 0px;
+    text-transform: capitalize;
+}
+.xtrcardcash {
+    font-weight: revert;
+    margin-top: 14px;
+}
+
+.xtrfavorite {
+    position: absolute;
+    background: #fff;
+    height: 4.3rem;
+    width: 11rem;
+    box-shadow: 1px 2px 9px #80808087;
+    border-radius: 10px;
+    right: -83px;
+    bottom: -9px;
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 20px;
+}
+.noextra-image-body {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 54%;
+    width: 100%;
+}
+
+.xtrcard-cash-like {
+    position: relative;
+}
+.xtrcardcash small {
+    color: lightslategray;
+    font-size: 13px;
+    margin: 3px;
+}
+
+.payment-logo {
+    font-size: 24px;
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    background: yellowgreen;
+    box-shadow: 0px 0px 9px #556b2f9c;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.fav-box-text b {
+    color: black;
+    font-weight: 600;
+}
+.fav-box-text {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.fav-box-text {
+    color: #a7e823;
+}
+
+.xtrcardtext1 {
+    color: blueviolet;
+}
+
+.xtrcardtext2 {
+    color: orange;
+}
+
+.xtrcardtext3 {
+    color: deeppink;
+}
+
+.xtrcardtext4 {
+    color: indianred;
+}
+.lvertical-line {
+    background: #009688;
+    border-radius: 10px;
+    display: inline-block;
+}
+.noextra-day {
+    color: gray;
+    width: 42px;
+    height: max-content;
+}
+@media (min-width:200px) and (max-width: 576px) {
+    .noextra-cardBody {
+        width: 78%;
+        height: 20rem;
+        margin: 0;
+    }
+    
+    .xtrcardcash {
+        font-size: 28px;
+    }
+    
+    .noextra-image-body {
+        height: 55%;
+        width: 100%;
+    }
+    .noextra-cardimage {
+        height: 100%;
+        width: 100%;
+    }
+    .noextra-cardtitle {
+        font-size: 17px;
+        font-weight: bold;
+        margin: 12px 0;
+    }
+    .noextra-cardtext {
+        font-size: 14px;
+        margin: 0;
+    }
+    .xtrfavorite {
+        height: 3.6rem;
+        width: 10.5rem;
+        right: -106px;
+        bottom: 3px;
+        padding: 0;
+    }
+}

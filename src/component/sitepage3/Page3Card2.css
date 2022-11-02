@@ -1,0 +1,134 @@
+.poster-body {
+    height: 24rem;
+    width: 23rem;
+}
+.poster {
+    height: 47%;
+    width: 63%;
+    position: relative;
+}
+.poster-image {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #101c158a;
+}
+.poster-one {
+    bottom: -18px;
+    left: 0%;
+}
+
+.poster-two {
+    top: -92px;
+    left: 181px;
+    z-index: 12;
+}
+.poster-three {
+    top: -163px;
+    right: -19px;
+}
+
+p.poster-head {
+    font-weight: 600;
+    margin: 4px 0;
+}
+.p-head-1:after {
+    content: '';
+    height: 5px;
+    position: absolute;
+    width: 28%;
+    background: rgb(179, 186, 115);
+    border-radius: 10px;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 3px 5px grey;
+}
+.p-head-1 {
+    color: rgb(179, 186, 115);
+}
+.p-head-3:after {
+    content: '';
+    height: 5px;
+    position: absolute;
+    width: 28%;
+    background: rgb(26, 53, 174);
+    border-radius: 10px;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 3px 5px grey;
+}
+.p-head-3 {
+    color: rgb(26, 53, 174);
+}
+.p-head-2:after {
+    content: '';
+    height: 5px;
+    position: absolute;
+    width: 28%;
+    background: rgb(186, 80, 14);
+    border-radius: 10px;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 3px 5px grey;
+}
+.p-head-2 {
+    color: rgb(186, 80, 14);
+}
+@media (min-width:200px) and (max-width:576px){
+    
+    .poster-body {
+        height: 24rem;
+        width: 100%;
+    }
+    
+    .poster {
+        height: 36%;
+        width: 50%;
+    }
+    .poster-one {
+        bottom: -18px;
+        left: 4%;
+    }
+    p.poster-head {
+        font-weight: 600;
+        margin: 2px 0;
+    }
+    .p-head-1 {
+        color: rgb(179, 186, 115);
+    }
+    .p-head-1:after {
+        height: 3px;
+        width: 30%;
+        top: -5px;
+        box-shadow: 0 1px 4px grey;
+    }
+    .poster-image {
+        width: 100%;
+        height: 82%;
+        box-shadow:unset;
+    }
+    .poster-two {
+        top: -49px;
+        left: 163px;
+        z-index: 12;
+    }
+    .p-head-2:after {
+        height: 3px;
+        width: 30%;
+        top: -5px;
+        box-shadow: 0 1px 4px grey;
+    }
+    .poster-three {
+        top: -113px;
+        right: -28px;
+    }
+    .p-head-3:after {
+        height: 3px;
+        width: 30%;
+        top: -5px;
+        box-shadow: 0 1px 4px grey;
+    }
+}
