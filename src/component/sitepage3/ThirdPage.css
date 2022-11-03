@@ -60,7 +60,7 @@
     }
     .item3-image-box {
         height: 12rem;
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
     .page3-section-item:nth-child(2n) {

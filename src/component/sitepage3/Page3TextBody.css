@@ -38,7 +38,7 @@ b.bold1 {
 @media (min-width:200px) and (max-width:576px){
     .page3-text-box {
         width: 100%;
-        margin:16px 0 40px;
+        margin:14px 0 50px;
     }.page3-bold-text {
         font-size: 25px;
     }.page3-content {

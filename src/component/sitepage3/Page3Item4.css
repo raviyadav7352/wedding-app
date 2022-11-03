@@ -44,23 +44,23 @@
         border: 0;
     }
     .page3-itme4-body {
-        height: 20rem;
+        height: 15rem;
         width: 100%;
     }
     .pg-item4-one {
+        height: 9rem;
+        width: 9rem;
+    }
+    .pg-item4-two {
+        height: 7rem;
+        width: 7rem;
+    }
+    .pg-item4-three {
         height: 11rem;
         width: 11rem;
     }
-    .pg-item4-two {
-        height: 8rem;
-        width: 8rem;
-    }
-    .pg-item4-three {
-        height: 13rem;
-        width: 13rem;
-    }
     .pg-item4-four {
-        height: 6rem;
-        width: 6rem;
+        height: 5rem;
+        width: 5rem;
     }
 }
