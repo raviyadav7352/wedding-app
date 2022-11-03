@@ -1,24 +1,35 @@
-import React from "react";
+import React,{ useRef } from "react";
 import './ReviewCard.css'
 const ReviewCard = (props) => {
+    let rattingRef =useRef()
+    let rattingStar = ()=>{
+       let html='' ;
+       for(let i = 0; i<=5; i++){
+        html +=`<i className="star material-symbols-rounded">star</i>`
+       }
+       console.log(html)
+       rattingRef.current.innerHTML ="ml";
+    }
     return (
-
-        // <div className="dgn-cardBody">
-        //     <img src={`images/${props.imgname}.jpg`}  className="dgn-cardimage" alt="image card" />
-        //     <div className="dgn-cardbody">
-        //         <h5 className="dgn-cardtitle">{props.title}</h5>
-        //         <p className="dgn-cardtext opacity-75">{props.text}</p>
-        //     </div>
-        // </div>
         <div className="rev-cardBody">
             <img src={`images/${props.imgname}.jpg`} className="rev-cardimage" alt="image card" />
             <div className="review-body">
-                <div className="rating-star">
-                    <i className="star material-symbols-rounded">star</i>
-                    <i className="star material-symbols-rounded">star</i>
-                    <i className="star material-symbols-rounded">star</i>
-                    <i className="star material-symbols-rounded">star</i>
-                    <i className="star material-symbols-rounded">star</i>
+                <div className="rating-star" ref={rattingRef}>
+                    <i className="star material-symbols-rounded">star
+                        <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
+                    </i>
+                    <i className="star material-symbols-rounded">star
+                        <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
+                    </i>
+                    <i className="star material-symbols-rounded">star
+                        <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
+                    </i>
+                    <i className="star material-symbols-rounded">star
+                        <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
+                    </i>
+                    <i className="star material-symbols-rounded">star
+                        <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
+                    </i>
                 </div>
                 <p className="review-text">{props.text}
                 </p>

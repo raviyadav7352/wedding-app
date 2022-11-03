@@ -3,12 +3,17 @@ import React, { useState, useRef } from 'react';
 import Body from '../bodycomponent/Body';
 import ModalPage from '../bodycomponent/ModalPage';
 const SixthPage = (props) => {
-    let [shift, setShift] = useState(10)
+    let [shift, setShift] = useState(25)
     let [modalIs, setModalIs] = useState(true)
-    let imageTap = useRef()
     let boxref = useRef()
     function modalHide() {
         setModalIs(true)
+    }
+    function showImage(status ,event) {
+        setModalIs(status)
+        let imghtml = event.target.getAttribute("src")
+        boxref.current.innerHTML = `<img src=${imghtml} class="corosol-click-image"/>`
+
     }
 
     let imagedata = [
@@ -18,21 +23,18 @@ const SixthPage = (props) => {
         { imgname: "wedding4" }, { imgname: "wedding1" }, { imgname: "wedding2" }, { imgname: "wedding4" },
     ]
     let backward = function () {
-        if (shift != 10) {
-            setShift(pre => pre - 40)
+        if (shift != 25) {
+            setShift(pre => pre - 50)
         }
     }
     function imageSet() {
-        let imghtml;
-        imghtml = imageTap.current
-
-        boxref.current.innerHTML = `<img src="images/flower3.jpg" class="corosol-click-image"/>`
+       
 
     }
 
     let forward = function () {
-        if (shift <= imagedata.length * 30 + 40) {
-            setShift(Number => Number + 40)
+        if (shift <= imagedata.length * 30 + 50) {
+            setShift(Number => Number + 50)
         }
     }
 
@@ -49,17 +51,20 @@ const SixthPage = (props) => {
                 </span>
                 <div className='image-box' style={{ transform: `translateX(${-shift}%)` }}>
                     {imagedata.map((data, index) =>
-                        <img key={index} className='corosol-image' onDoubleClick={() => setModalIs(false)} src={`images/${data.imgname}.jpg`} />
-                    )}
+                
+                        <div key={index} className='corosol-image-box'>
+                        <img  className='corosol-image' onClick={(e) => showImage(false, e)} src={`images/${data.imgname}.jpg`} />
+                        
+                        <span className="material-symbols-rounded likebox" >favorite
+                            <span className="material-symbols-outlined likefill" onClick={(e)=>e.target.classList.toggle("like")}>favorite</span>
+                        </span>   
+                        </div>
+                        )}
                 </div>
                 <div className={`modal__body ${modalIs ? "close" : "open"}`}>
-                    <header className="modal__header" >
-                        <img src='icons/close.png' className='closemodal' onClick={modalHide} />
-                    </header>
+                    <img src='icons/close.png' className='closemodal' onClick={modalHide} />
                     <section className='modal__section'>
-                        <div className='modal-image-box' ref={boxref}>
-                            <img src='images/wedding2.jpg' alt='wedding deco' ref={imageTap} onClick={() => imageSet()} className='corosol-click-image' />
-                        </div>
+                        <div className='modal-image-box' ref={boxref}></div>
                     </section>
                     <footer className='modal__footer'>
                         <button type='button'>Save</button>

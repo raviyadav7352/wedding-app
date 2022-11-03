@@ -20,7 +20,9 @@ const PakageCard = (props) => {
                 </p>
                 <div className="card-cash-like">
                 <h5 className="cardcash">₹{props.price}</h5>
-                <i className="material-symbols-rounded favorite">favorite</i>
+                <span className="material-symbols-rounded favorite " >favorite
+                    <span className="material-symbols-outlined favorite likeFill" onClick={(e)=>e.target.classList.toggle("like")}>favorite</span>
+                </span>   
                 </div>
             </div>
         </div>

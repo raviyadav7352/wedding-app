@@ -48,8 +48,15 @@
     -webkit-text-stroke: thin;
     font-weight: revert;
 }
-.favorite{
-    color: blueviolet;
+.favorite {
+    position: absolute;
+    right: 0;
+}
+.likeFill {
+    color: transparent;
+    font-size: 28px;
+    right: -2px;
+    top: -2px;
 }
 .pkg-image-body {
     background: #f0ffff;
@@ -66,6 +73,7 @@
 .card-cash-like {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 

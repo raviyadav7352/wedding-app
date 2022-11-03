@@ -23,12 +23,15 @@
     margin: 0;
 }
 .star{
-    background-color: rgb(215, 160, 121);
     border-radius: 100%;
     margin-right: 2px;
     color:antiquewhite;
-    font-size: 18px;
+    position: relative;
    
+}
+.starfill {
+    position: absolute;
+    left: 0;
 }
 .review-text {
     font-size: 12px;
