@@ -31,12 +31,12 @@ const ThirdPage = (props) => {
                     />
                 </div>
                 <div className='page3-section-item'>
+                    <Page3Card2 />
                     <Page3TextBody
                         colorhead={bodyText[1].colorhead}
                         blackhead={bodyText[1].blackhead}
                         text={bodyText[1].text}
                     />
-                    <Page3Card2 />
                 </div>
                 <div className='page3-section-item'>
                     <div className='item3-image-box'>
@@ -49,12 +49,12 @@ const ThirdPage = (props) => {
                     />
                 </div>
                 <div className='page3-section-item'>
+                    <Page3Item4/>
                     <Page3TextBody
                         colorhead={bodyText[3].colorhead}
                         blackhead={bodyText[3].blackhead}
                         text={bodyText[3].text}
                     />
-                    <Page3Item4></Page3Item4>
                 </div>
             </section>
 

@@ -1,6 +1,6 @@
 .page3 {
     background: #dcf7f669;
-    padding: 6% 12%;
+    padding: 6% 12% 0%;
     text-align: center;
 }
 
@@ -20,7 +20,11 @@
 .page3-section-item {
     display: flex;
     gap: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+}
+.page3-section-item:nth-child(2n) {
+    flex-direction: row-reverse;
 }
 .item3-image-box{
     height:18rem ;
@@ -58,5 +62,8 @@
         height: 12rem;
         width: 80%;
         margin: auto;
+    }
+    .page3-section-item:nth-child(2n) {
+        flex-direction:unset;
     }
 }

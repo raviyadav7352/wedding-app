@@ -1,17 +1,15 @@
 .noextra-cardBody {
-    width: 20rem;
-    height: 22rem;
+    width: 23rem;
+    height: 27rem;
     box-shadow: 0 0 39px rgb(63 30 128 / 30%), inset 0 0 7px #f6e9ec;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 27px;
     padding: 10px 20px;
-
 }
 .noextra-cardbody {
     text-align: start;
-    width: 100%;
 }
 
 .noextra-cardimage {
@@ -23,9 +21,9 @@
     text-transform:capitalize;
 }
 .noextra-cardtitle {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    margin: 12px 0;
+    margin: 19px 0;
 }
 .noextra-day {
     color: gray;
@@ -40,26 +38,27 @@
     text-transform: capitalize;
 }
 .xtrcardcash {
-    font-weight: revert;
     margin-top: 14px;
+    font-size: 27px;
+    font-weight: 800;
 }
 
 .xtrfavorite {
     position: absolute;
     background: #fff;
-    height: 4.3rem;
-    width: 11rem;
+    height: 5rem;
+    width: 12rem;
     box-shadow: 1px 2px 9px #80808087;
     border-radius: 10px;
-    right: -83px;
-    bottom: -9px;
+    right: -86px;
+    bottom: -19px;
     display: flex;
     align-items: center;
     padding: 8px 8px 20px;
 }
 .noextra-image-body {
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 14px;
     overflow: hidden;
     height: 54%;
     width: 100%;
@@ -75,15 +74,15 @@
 }
 
 .payment-logo {
-    font-size: 24px;
+    font-size: 28px;
     color: #fff;
     border-radius: 50%;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-    width: 40px;
+    width: 50px;
     background: yellowgreen;
-    box-shadow: 0px 0px 9px #556b2f9c;
+    box-shadow: 0px 0px 3px #556b2f9c;
     margin-right: 4px;
     cursor: pointer;
 }
@@ -119,11 +118,11 @@
     background: #009688;
     border-radius: 10px;
     display: inline-block;
+    color: transparent;
+    width: 5px;
 }
 .noextra-day {
     color: gray;
-    width: 42px;
-    height: max-content;
 }
 @media (min-width:200px) and (max-width: 576px) {
     .noextra-cardBody {

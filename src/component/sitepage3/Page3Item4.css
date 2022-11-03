@@ -1,7 +1,7 @@
 .page3-itme4-body {
     display: flex;
     height: 22rem;
-    width: 33rem;
+    width: 32rem;
     position: relative;
 }
 .item4 {
@@ -15,7 +15,7 @@
     height: 15rem;
     width: 15rem;
     right: 30%;
-    top: 27%;
+    bottom: 0;
 }
 .pg-item4-two {
     height: 11rem;
@@ -44,30 +44,23 @@
         border: 0;
     }
     .page3-itme4-body {
-        height: 22rem;
+        height: 20rem;
         width: 100%;
     }
     .pg-item4-one {
         height: 11rem;
         width: 11rem;
-        right: 30%;
-        top: 27%;
     }
     .pg-item4-two {
         height: 8rem;
         width: 8rem;
-        bottom: 44%;
     }
     .pg-item4-three {
         height: 13rem;
         width: 13rem;
-        right: 0;
-        top: -1px;
     }
     .pg-item4-four {
         height: 6rem;
         width: 6rem;
-        right: 47%;
-        top: 8%;
     }
 }

@@ -9,7 +9,7 @@
     gap: 4px;
 }
 .page3-bold-text {
-    font-size: 32px;
+    font-size: 34px;
     line-height: 33px;
 }
 b.bold1 {
@@ -30,7 +30,7 @@ b.bold1 {
 }
 .page3-content-text {
     width: 18rem;
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.8;
 }
 
@@ -38,15 +38,10 @@ b.bold1 {
 @media (min-width:200px) and (max-width:576px){
     .page3-text-box {
         width: 100%;
-        text-align: unset;
-        margin: auto;
+        margin:16px 0 40px;
     }.page3-bold-text {
         font-size: 25px;
     }.page3-content {
-        margin: 22px 0 0 20px;
-        justify-content: center;
-    }.page3-content-text {
-        font-size: 16px;
-        text-align: start;
+        margin: 20px 0 0 20px;
     }
 }
