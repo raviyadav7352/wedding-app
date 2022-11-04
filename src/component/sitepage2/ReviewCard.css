@@ -27,6 +27,7 @@
     margin-right: 2px;
     color:antiquewhite;
     position: relative;
+    cursor: pointer;
    
 }
 .starfill {
@@ -48,6 +49,7 @@
     .rev-cardBody {
         width: 100%;
         margin-bottom: 20px;
+        box-shadow: 0 0 3px rgb(0 0 0 / 30%);
     }
     
     .rev-cardimage {

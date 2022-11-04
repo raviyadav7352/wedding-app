@@ -21,8 +21,7 @@
 }
 
 .step-card-text {
-    font-size: 13px;
-    font-family: system-ui;
+    font-size: 14px;
     opacity: .8;
 }
 
@@ -55,8 +54,9 @@
         padding-top: 0;
         font-weight: 600;
     }
-    .step-card-text {
-        font-size: 15px;
-        font-weight: lighter;
+    .step-card {
+        width: 12rem;
+        height: 12rem;
+        
     }
 }

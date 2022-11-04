@@ -118,7 +118,7 @@
 }
 @media (min-width:200px) and (max-width:576px) {
     .page2{
-        padding:1px 0;
+        padding:0;
     }
     .page2-content>img {
         height: 28rem;
@@ -144,12 +144,13 @@
     .form-input {
         width: 90%;
         display: block;
-        margin: 10px auto;
+        margin: 40px auto;
         min-height: 11rem;
         padding: 14px;
         position: relative;
         left: 0;
         top: 0;
+        box-shadow: 0 0 4px rgb(0 0 0 / 30%);
     }
     .form-input .entrybtn {
         padding: 0px;

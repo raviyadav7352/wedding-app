@@ -129,6 +129,7 @@
         width: 78%;
         height: 20rem;
         margin: 0;
+        box-shadow: 0 0 4px rgb(0 0 0 / 30%), inset 0 0 11px whitesmoke;
     }
     
     .xtrcardcash {

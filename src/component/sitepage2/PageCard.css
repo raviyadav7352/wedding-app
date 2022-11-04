@@ -35,6 +35,7 @@
         padding: 20px;
         height: auto;
         margin-bottom: 0;
+        box-shadow: 0 0 4px #c5188147;
     }
     .cardtitle {
         font-size:18px;

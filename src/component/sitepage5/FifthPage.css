@@ -6,23 +6,18 @@
 }
 
 .page5-text {
-    margin-bottom: 4vw;
+    margin-bottom: 3rem;
 }
 
 .page5-heading {
     font-weight: bold;
-    font-size: 2.7vw;
+    font-size: 26px;
 }
 @media (min-width:200px) and (max-width:576px){
     .page5-section {
         justify-content: space-between;
     }
-    .page5-heading {
-        font-size: 26px;
-    }
-    .page5-text {
-        margin-bottom: 4vw;
-    }
+
     .page5 {
         padding:10% 10px;
     }

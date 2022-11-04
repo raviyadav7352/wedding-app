@@ -180,4 +180,8 @@
     .corosol-click-image {
         border-radius:unset;
     }
+    .likebox{
+        opacity: .4;
+    }
+
 }

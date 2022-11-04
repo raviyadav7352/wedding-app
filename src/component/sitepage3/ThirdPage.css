@@ -31,7 +31,7 @@
     width: 25rem;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(128, 128, 128, 0.698);
+    box-shadow: 0 0 39px rgb(63 30 128 / 30%);
 }
 
 .item3-image{
@@ -59,9 +59,10 @@
         margin-bottom: 10px;
     }
     .item3-image-box {
-        height: 12rem;
+        height: 14rem;
         width: 100%;
         margin: auto;
+        box-shadow:unset;
     }
     .page3-section-item:nth-child(2n) {
         flex-direction:unset;

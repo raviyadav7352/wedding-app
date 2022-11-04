@@ -8,7 +8,7 @@
     position: absolute;
     border-radius: 14px;
     border: 4px solid whitesmoke;
-    box-shadow: 0 1px 22px #824eb178;
+    box-shadow: 0 0 39px rgb(63 30 128 / 30%);
     overflow: hidden;
 }
 .pg-item4-one {
@@ -42,25 +42,29 @@
     
     .item4 {
         border: 0;
+        box-shadow: unset;
     }
     .page3-itme4-body {
         height: 15rem;
         width: 100%;
     }
     .pg-item4-one {
-        height: 9rem;
-        width: 9rem;
+        height: 10rem;
+        width: 10rem;
     }
     .pg-item4-two {
-        height: 7rem;
-        width: 7rem;
+        height: 8rem;
+        width: 8rem;
     }
     .pg-item4-three {
         height: 11rem;
         width: 11rem;
     }
     .pg-item4-four {
-        height: 5rem;
-        width: 5rem;
+        height: 6rem;
+        width: 6rem;
+        right: 43%;
+    
     }
+
 }
