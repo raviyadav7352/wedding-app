@@ -1,12 +1,12 @@
 .dgn-cardBody {
     width: 17.5rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
     border-radius: 8px;
-    margin-bottom: 10px;
+background: #ffffff;
+box-shadow: 17px 17px 34px #c7c7c7, -17px -17px 34px #ffffff;
 }
 .dgn-textbody {
     padding-left: 20px;
@@ -30,11 +30,32 @@
     font-family: system-ui;
     font-weight: 600;
 }
-@media (min-width:200px) and (max-width: 576px) {
+@media (min-width:200px) and (max-width: 400px) {
     .dgn-cardBody {
         width: 83%;
         height: 15rem;
         margin: 0 10px;
+       
+    }
+    .dgn-cardtitle {
+        font-size:16px;
+    }
+    
+    .dgn-cardtext {
+        font-size: 14px;
+    }
+}
+@media (min-width:400px) and (max-width: 600px) {
+    .dgn-cardBody {
+        width: 47%;
+        height: 14rem;
+        margin-bottom: 10px;
+        
+    }
+    .dgn-cardimage {
+        min-height: 60%;
+        width: 90%;
+        margin: 5%;
     }
     .dgn-cardtitle {
         font-size:16px;

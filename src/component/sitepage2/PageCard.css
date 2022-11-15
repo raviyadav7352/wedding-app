@@ -1,5 +1,5 @@
 .cardBody {
-    width: 18rem;
+    width: 19rem;
     height: 12rem;
     box-shadow: 0 0 12px #a2a2ee52;
     display: flex;
@@ -7,8 +7,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #fff;
+    padding: 10px;
     margin-bottom: 10px;
+    border-radius: 4px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 5px #d6d6d6,
+                 -5px -5px 5px #ffffff;
 }
 
 .cardimage {
@@ -16,7 +20,8 @@
     height: 60px;
     width: 60px;
     display: inline-block;
-    margin: 18px;
+    margin: 10px;
+    box-shadow: 2px 2px 4px #969696, -2px -2px 4px #ffffff;
 }
 
 .cardtitle {
@@ -25,24 +30,42 @@
 }
 
 .cardtext {
-    font-size: 14px;
     font-family: system-ui;
-    padding: 0 32px;
+    font-size: 15px;
+    overflow: auto;
 }
-@media (min-width:200px) and (max-width: 576px) {
+@media (min-width:200px) and (max-width: 400px) {
     .cardBody {
-        width: 100%;
+        width: 90%;
         padding: 20px;
         height: auto;
-        margin-bottom: 0;
-        box-shadow: 0 0 4px #c5188147;
+        margin: 10px auto;
     }
     .cardtitle {
         font-size:18px;
     }
     
+       
+}
+@media (min-width:400px) and (max-width: 600px) {
+    .cardBody {
+        width: 47%;
+        padding: 20px;
+        height: auto;
+        /* margin-bottom: 0; */
+       
+        margin-bottom: 21px;
+    justify-content: center;
+    border-radius:10px;
+    }
+    .cardtitle {
+        font-size:18px;
+    }
     .cardtext {
-        font-size: 16px;
+        font-size: 15px;
+        padding:unset;
+        height: auto;
     }
     
+       
 }

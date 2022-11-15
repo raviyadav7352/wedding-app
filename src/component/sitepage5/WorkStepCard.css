@@ -1,50 +1,56 @@
 .step-card {
-    width: 11rem;
-    height: 11rem;
+    width: 14vw;
+    max-height: 13rem;
     text-align: center;
     position: relative;
 }
 .step-card img {
-    height: 40%;
-    width: 40%;
-    border-radius: 20%;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  5px 5px 5px #969696,
+                 -5px -5px 5px #ffffff;
 }
 .step-card-head {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     word-spacing: 3px;
-    margin: 10px;
-    padding-top: 10px;
+    margin: 0px;
+    padding:10px 0;
 }
 .step-card:nth-child(2n) {
     margin-top: 6rem;
 }
 
 .step-card-text {
-    font-size: 14px;
     opacity: .8;
+    line-height: 20px;
 }
 
-.step-card:nth-child(2n):after {
-    content: '';
-    height: 21rem;
-    position: absolute;
-    border-radius: 0% 0% 50% 50%;
-    width: 27rem;
-    border-bottom: 4px dotted gray;
-    right: 50%;
-    transform: translateX(50%);
-    border-color: chartreuse;
-    z-index: -5;
-    top: -155%;
+
+@media (min-width:200px) and (max-width:400px){
+    
+    
+    .step-card-head {
+        font-size: 18px;
+        word-spacing: 0;
+        margin: 10px 0;
+        padding-top: 0;
+        font-weight: 600;
+    }
 }
-@media (min-width:200px) and (max-width:576px){
-    .step-card:nth-child(2n):after {
-        content:none ;
+@media (min-width:400px) and (max-width:600px){
+    
+    .step-card {
+        width: 40vw;
+        height: 13rem;
+        text-align: center;
+        position: relative;
     }
     .step-card img {
-        height: 50%;
-        width: 50%;
+        height: 20vw;
+        width: 20vw;
         border-radius: 20%;
     }
     .step-card-head {
@@ -53,5 +59,20 @@
         margin: 10px 0;
         padding-top: 0;
         font-weight: 600;
+    }
+}
+@media (min-width:1100px){
+    .step-card:nth-child(2n):after {
+        content: '';
+        height: 20rem;
+        position: absolute;
+        border-radius: 0% 0% 50% 50%;
+        width: 27rem;
+        border-bottom: 4px dotted gray;
+        right: 50%;
+        transform: translateX(50%);
+        border-color: chartreuse;
+        z-index: -5;
+        top: -133%;
     }
 }

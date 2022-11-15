@@ -4,9 +4,6 @@
     flex-wrap: wrap;
     justify-content:space-between;
 }
-.page8{
-    padding: 0% 10%;
-}
 .page8-header {
     display: flex;
     justify-content: space-between;
@@ -36,7 +33,7 @@
     display: flex;
     width: 100%;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 4rem;
     padding: 12px 50px;
     background-color:#966ed4;
 }
@@ -78,7 +75,7 @@
     width: 14rem;
 }
 
-@media (min-width:200px) and (max-width:576px){
+@media (min-width:200px) and (max-width:400px){
     .page8-section {
         display:flex;
         gap: 16px;
@@ -148,7 +145,77 @@
     }
     .page8-btn {    
         font-size: 16px;
-        background-color: #ea495e;
-        height: 3rem;
+        /* background-color: #ea495e; */
+        /* height: 3rem; */
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    .page8-section {
+        justify-content: space-around;
+    }
+    .page8{
+        padding: 20px;
+    }
+    
+    .big-image {
+        height: 14rem;
+        width: 18rem;
+    }
+    .small-image {
+        height: 9rem;
+        width: 14rem;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .page8-bottom-card {
+        display: block;
+        height: auto;
+        margin-top: 20px;
+        padding:40px 20px;
+    }
+    
+    .page8-bottom-card-image {
+        width: 100%;
+        padding-top: 0;
+    }
+    
+    .page8-bottom-card-text {
+        width:auto;
+        text-align:unset;
+    }
+    
+    .bottom-card-bold-text {
+        margin: 60px 0 10px;
+        font-size: 20px;
+    }
+    
+    .bottom-card-plain-text {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    
+    .page8-btn {
+        padding: 6px;
+    }
+    .page8-header {
+        display: block;
+        /* justify-content: space-between; */
+        text-align: unset;
+        margin: 20px 27px;
+        height: 11rem;
+    }
+    .page8-heading {
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .page8-text {
+        margin-bottom: 20px;
+        font-size: 19px;
+        color: darkcyan;
+    }
+    .page8-btn {    
+        font-size: 16px;
     }
 }

@@ -1,0 +1,14 @@
+
+    .entrybtn {
+        box-shadow: 6px 6px 15px #b2b2b2;
+        
+        width: 17rem;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+.forminput input, .forminput select{
+    background: #d2d9db96;
+}
+.forminput input:hover, .forminput select:hover{
+    background-color:aliceblue;
+}

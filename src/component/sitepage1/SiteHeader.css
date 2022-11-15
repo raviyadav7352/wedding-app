@@ -1,3 +1,7 @@
 .nav-items .nav-link:hover{
 color:yellowgreen;
 }
+#navBar.mynavbar{
+    background: #ffffff;
+    box-shadow: 0px 2px 7px #b8b8b8;
+}

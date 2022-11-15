@@ -1,5 +1,5 @@
 .page3-text-box {
-    width: 22rem;
+    width: 46%;
     text-align: start;
     margin: auto;
 }
@@ -40,6 +40,18 @@ b.bold1 {
         width: 100%;
         margin:14px 0 50px;
     }.page3-bold-text {
+        font-size: 25px;
+        
+    }.page3-content {
+        margin: 20px 0 0 20px;
+    }
+}
+@media (min-width:576px) and (max-width:900px){
+    .page3-text-box {
+        width: 100%;
+        margin:14px 0 50px;
+    }.page3-bold-text {
+        text-align: center;
         font-size: 25px;
     }.page3-content {
         margin: 20px 0 0 20px;

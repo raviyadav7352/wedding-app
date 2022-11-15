@@ -1,0 +1,129 @@
+.card-Body {
+    width: 22rem;
+    height: 32rem;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px 0;
+    box-shadow: 0 0 10px rgba(119, 136, 153, 0.625);
+}
+
+.page10 {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(46deg, #9c27b0, #ffc107);
+}
+
+.imagebox {
+    height: 30%;
+    width: 100%;
+}
+
+.imagebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttonBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.subscription {
+    padding: 3px;
+    display: flex;
+    background: #b1e5e582;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.annual {
+    font-size: 14px;
+    height: 44px;
+}
+
+.annual p:nth-child(1) {
+    margin: 0;
+}
+
+.annual p:nth-child(2) {
+    color: cadetblue;
+    padding: 0;
+    margin: 0;
+}
+
+.linkmusic {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.linkmusic:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.music {
+    background: #9d7070;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.contentBody {
+    background: white;
+    height: 70%;
+
+}
+
+.contentBody h2 {
+    padding-top: 2rem;
+}
+
+.contentBody>p {
+    color: cadetblue;
+    width: 72%;
+    font-size: 13px;
+    margin: 15px auto;
+}
+
+.btn1 {
+    border: 0;
+    border-radius: 10px;
+    background: blueviolet;
+    width: 80%;
+    padding: 9px;
+    color: #fff;
+    box-shadow: 0 0 4px lightgray;
+}
+
+.btn1:hover {
+    background-color: rgb(106, 45, 163);
+}
+
+.btn1:active {
+    background-color: rgb(21, 150, 105);
+}
+
+.btn2 {
+    background: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .7;
+}
+
+.btn2:hover {
+    font-weight: 600;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.btn2:active {
+    color: #9d7070;
+}

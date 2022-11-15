@@ -1,7 +1,17 @@
 .page {
     background: #dcf7f669;
-    padding: 6% 10%;
+    padding: 3% 10%;
     text-align: center;
+}
+.page h2{
+    font-weight: 600;
+    font-size: 2.2rem;
+
+}
+.page > p {
+    font-weight: 500;
+    color: darkcyan;
+    margin-bottom: 3rem;
 }
 
 
@@ -11,9 +21,15 @@
     justify-content: space-between;
     gap: 3vw;
 }
-@media (min-width:200px) and (max-width:576px){
+@media (min-width:200px) and (max-width:400px){
     
     .page {
         padding: 0px;
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    
+    .page {
+        padding: 3% 6%;
     }
 }

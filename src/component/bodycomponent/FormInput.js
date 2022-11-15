@@ -3,9 +3,9 @@ import './FormInput.css'
 const FormInput = (props) => {
     return (
         <div className={props.className}>
-            <form className='row border-0'>
+            <form className='row border-0 forminput'>
                 <div className='col-sm-6 mb-2'>
-                    <input className='form-control p-2 ps-3 rounded-5  border-0 entry' type='text' placeholder='First Name' />
+                    <input className='form-control p-2 ps-3 rounded-5  border-0 entry' type='text' placeholder='FullName' />
                 </div>
                 <div className='col-sm-6 mb-2'>
                     <input className='form-control p-2 rounded-5 border-0  ps-3 entry' type='text' placeholder='Phone Number' />

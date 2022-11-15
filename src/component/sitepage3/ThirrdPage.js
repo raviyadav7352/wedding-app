@@ -13,6 +13,15 @@ const ThirdPage = (props) => {
         { colorhead: "3D ", blackhead: "visualisation", text: "See your final design in realistic 3D before placing order" },
         { colorhead: "Online ", blackhead: "packages", text: "Receieve personalised packages online, based on your requirement & budget" },
     ]
+    const page3TextBody = (index)=>{
+        const textData = bodyText[index]
+        return(
+            <Page3TextBody
+            colorhead={textData.colorhead}
+            blackhead={textData.blackhead}
+            text={textData.text}
+           />)
+    }
 
     return (
         <Body className="page3">
@@ -24,37 +33,21 @@ const ThirdPage = (props) => {
                         title="Wedding and Mehndi"
                         price="70000"
                     />
-                    <Page3TextBody
-                        colorhead={bodyText[0].colorhead}
-                        blackhead={bodyText[0].blackhead}
-                        text={bodyText[0].text}
-                    />
+                    {page3TextBody(0)}
                 </div>
                 <div className='page3-section-item'>
                     <Page3Card2 />
-                    <Page3TextBody
-                        colorhead={bodyText[1].colorhead}
-                        blackhead={bodyText[1].blackhead}
-                        text={bodyText[1].text}
-                    />
+                    {page3TextBody(1)}
                 </div>
                 <div className='page3-section-item'>
                     <div className='item3-image-box'>
                         <img src='images/wedding3.jpg' className='item3-image' alt='wedding' />
                     </div>
-                    <Page3TextBody
-                        colorhead={bodyText[2].colorhead}
-                        blackhead={bodyText[2].blackhead}
-                        text={bodyText[2].text}
-                    />
+                    {page3TextBody(2)}
                 </div>
                 <div className='page3-section-item'>
                     <Page3Item4/>
-                    <Page3TextBody
-                        colorhead={bodyText[3].colorhead}
-                        blackhead={bodyText[3].blackhead}
-                        text={bodyText[3].text}
-                    />
+                    {page3TextBody(3)}
                 </div>
             </section>
 

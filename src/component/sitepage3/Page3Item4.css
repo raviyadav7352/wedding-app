@@ -1,7 +1,7 @@
 .page3-itme4-body {
     display: flex;
-    height: 22rem;
-    width: 32rem;
+    height: 20rem;
+    width: 46%;
     position: relative;
 }
 .item4 {
@@ -12,25 +12,25 @@
     overflow: hidden;
 }
 .pg-item4-one {
-    height: 15rem;
-    width: 15rem;
+    height: 56%;
+    width: 55%;
     right: 30%;
     bottom: 0;
 }
 .pg-item4-two {
-    height: 11rem;
-    width: 11rem;
+    height: 39%;
+    width: 38%;
     bottom: 34%;
 }
 .pg-item4-three {
-    height: 17rem;
-    width: 17rem;
+    height: 58%;
+    width: 57%;
     right: 0;
     top: -1px;
 }
 .pg-item4-four {
-    height: 8rem;
-    width: 8rem;
+    height: 26%;
+    width: 25%;
     right: 47%;
     top: 8%;
 }
@@ -38,7 +38,7 @@
     height: 100%;
     width: 100%;
 }
-@media (min-width:200px) and (max-width:576px){
+@media (min-width:200px) and (max-width:400px){
     
     .item4 {
         border: 0;
@@ -47,6 +47,37 @@
     .page3-itme4-body {
         height: 15rem;
         width: 100%;
+    }
+    .pg-item4-one {
+        height: 10rem;
+        width: 10rem;
+    }
+    .pg-item4-two {
+        height: 8rem;
+        width: 8rem;
+    }
+    .pg-item4-three {
+        height: 11rem;
+        width: 11rem;
+    }
+    .pg-item4-four {
+        height: 6rem;
+        width: 6rem;
+        right: 43%;
+    
+    }
+
+}
+@media (min-width:400px) and (max-width:600px){
+    
+    .item4 {
+        border: 0;
+        box-shadow: unset;
+    }
+    .page3-itme4-body {
+        height: 15rem;
+        width:23rem;
+        margin: auto;
     }
     .pg-item4-one {
         height: 10rem;

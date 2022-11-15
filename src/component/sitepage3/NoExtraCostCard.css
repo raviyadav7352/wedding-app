@@ -1,6 +1,6 @@
 .noextra-cardBody {
-    width: 23rem;
-    height: 27rem;
+    width: 42%;
+    height: 25rem;
     box-shadow: 0 0 39px rgb(63 30 128 / 30%), inset 0 0 7px #f6e9ec;
     display: flex;
     flex-direction: column;
@@ -121,10 +121,7 @@
     color: transparent;
     width: 5px;
 }
-.noextra-day {
-    color: gray;
-}
-@media (min-width:200px) and (max-width: 576px) {
+@media (min-width:200px) and (max-width: 400px) {
     .noextra-cardBody {
         width: 78%;
         height: 20rem;
@@ -132,27 +129,43 @@
         box-shadow: 0 0 4px rgb(0 0 0 / 30%), inset 0 0 11px whitesmoke;
     }
     
-    .xtrcardcash {
-        font-size: 28px;
-    }
+    /* .xtrcardcash {
+        font-size: 26px;
+    } */
     
-    .noextra-image-body {
-        height: 55%;
-        width: 100%;
-    }
-    .noextra-cardimage {
-        height: 100%;
-        width: 100%;
-    }
     .noextra-cardtitle {
-        font-size: 17px;
-        font-weight: bold;
+        /* font-size: 17px;
+        font-weight: bold; */
         margin: 12px 0;
     }
-    .noextra-cardtext {
+    /* .noextra-cardtext {
         font-size: 14px;
         margin: 0;
+    } */
+    .xtrfavorite {
+        height: 3.6rem;
+        width: 10.5rem;
+        right: -106px;
+        bottom: 3px;
+        padding: 0;
     }
+}
+@media (min-width:400px) and (max-width: 600px) {
+    .noextra-cardBody {
+        width: 84%;
+        height: 20rem;
+        margin: 0;
+        box-shadow: 0 0 4px rgb(0 0 0 / 30%), inset 0 0 11px whitesmoke;
+    }
+    
+    /* .xtrcardcash {
+        font-size: 28px;
+    } */
+    
+    .noextra-cardtitle {
+        margin: 12px 0;
+    }
+    
     .xtrfavorite {
         height: 3.6rem;
         width: 10.5rem;

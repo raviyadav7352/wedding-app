@@ -1,6 +1,7 @@
 import React from 'react';
 import PageCard from './PageCard';
 import './ForthPage.css';
+import Body from '../bodycomponent/Body';
 const ForthPage = (props) => {
     let cardData = [
         { imgname: "wedding1", title: "Decoration", text: "Professionally designed decor at attractive prices" },
@@ -14,10 +15,9 @@ const ForthPage = (props) => {
         { imgname: "wedding1", title: "Invites", text: "Invite designs that perfectly match your decor theme" },
     ]
     return (
-        <React.Fragment>
-            <div className='page4'>
-                <h2 className='page4-heading'>Services</h2>
-                <p className='page4-text'>High quality & reliable services, all in one place</p>
+            <Body className='page4'>
+                <h2>Services</h2>
+                <p>High quality & reliable services, all in one place</p>
                 <section className='page4-section'>
                     {cardData.map(data =>
                         <PageCard
@@ -28,8 +28,7 @@ const ForthPage = (props) => {
                         />
                     )}
                 </section>
-            </div>
-        </React.Fragment>
+            </Body>
     )
 }
 export default ForthPage;

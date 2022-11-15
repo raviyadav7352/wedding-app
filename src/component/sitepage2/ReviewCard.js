@@ -2,20 +2,20 @@ import React,{ useRef } from "react";
 import './ReviewCard.css'
 const ReviewCard = (props) => {
     let rattingRef =useRef()
+    let html='' ;
     let rattingStar = ()=>{
-       let html='' ;
+       
        for(let i = 0; i<=5; i++){
-        html +=`<i className="star material-symbols-rounded">star</i>`
+        html +=`vjjjb`
        }
        console.log(html)
-       rattingRef.current.innerHTML ="ml";
     }
     return (
         <div className="rev-cardBody">
             <img src={`images/${props.imgname}.jpg`} className="rev-cardimage" alt="image card" />
             <div className="review-body">
                 <div className="rating-star" ref={rattingRef}>
-                    <i className="star material-symbols-rounded">star
+                    {/* <i className="star material-symbols-rounded">star
                         <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
                     </i>
                     <i className="star material-symbols-rounded">star
@@ -29,7 +29,8 @@ const ReviewCard = (props) => {
                     </i>
                     <i className="star material-symbols-rounded">star
                         <span className="material-symbols-outlined like starfill" onClick={(e)=>e.target.classList.toggle("like")}>star</span>
-                    </i>
+                    </i> */}
+                    {html}
                 </div>
                 <p className="review-text">{props.text}
                 </p>

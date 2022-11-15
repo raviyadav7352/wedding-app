@@ -5,7 +5,6 @@ import ImageCorousel from "./ImageCorousel";
 const FirstPage = () => {
     return (
         <React.Fragment>
-            <SiteHeader></SiteHeader>
             <div className=" page1-body position-relative">
                 <div className="page1-texts">
                     <h4 className="text-warning fw-bold page1-heading1">Modern. Convenient. Affordable.</h4>

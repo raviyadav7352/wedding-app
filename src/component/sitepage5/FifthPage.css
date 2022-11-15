@@ -13,7 +13,17 @@
     font-weight: bold;
     font-size: 26px;
 }
-@media (min-width:200px) and (max-width:576px){
+@media (min-width:200px) and (max-width:400px){
+    .page5-section {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .page5{
+        padding-bottom: 3rem;
+    }
+
+}
+@media (min-width:400px) and (max-width:600px){
     .page5-section {
         justify-content: space-between;
     }

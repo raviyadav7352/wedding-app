@@ -1,5 +1,4 @@
 .page7 {
-    padding: 6% 10%;
     text-align: center;
     background-color: azure;
 }
@@ -11,15 +10,9 @@
     gap: 2vw;
 }
 
-.page7-text {
-    margin-bottom: 4vw;
-}
 
-.page7-heading {
-    font-weight: bold;
-    font-size: 2.7vw;
-}
-@media (min-width:200px) and (max-width:576px){
+
+/* @media (min-width:200px) and (max-width:400px){
     .page7-section {
         gap:16px;
     }
@@ -31,5 +24,29 @@
     }
     .page7 {
         padding: 10px;
+    }
+} */
+@media (min-width:200px) and (max-width:600px){
+    .page7-section {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: unset;
+        gap: 5vw;
+        width: fit-content;
+        margin: 0 10px;
+    }
+    .page7-heading {
+        font-size: 26px;
+        position: sticky;
+    left: 0%;
+    }
+    .page7-text {
+        margin-bottom: 4vw;
+        position: sticky;
+    left: 0%;
+    }
+    .page7 {
+        padding: 10px;
+       overflow: auto;
     }
 }

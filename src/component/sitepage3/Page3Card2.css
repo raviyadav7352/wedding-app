@@ -1,7 +1,6 @@
 .poster-body {
-    height: 26rem;
-    width: 30rem;
-    overflow: hidden;
+    height: 24rem;
+    width: 46%;
     position: relative;
 }
 .poster {
@@ -66,11 +65,27 @@ p.poster-head {
     color: rgb(26, 53, 174);
 }
 
-@media (min-width:200px) and (max-width:576px){
+@media (min-width:200px) and (max-width:400px){
     
     .poster-body {
         width: 100%;
         height: 20rem;
+    }
+    p.poster-head {
+        margin: 2px 0;
+    }
+    .poster-image {
+        box-shadow:unset;
+    }
+    .poster-two {
+        top: 6rem;
+    }
+}
+@media (min-width:400px) and (max-width:600px){
+    .poster-body {
+        width: 80%;
+        height: 20rem;
+        margin: auto;
     }
     p.poster-head {
         margin: 2px 0;

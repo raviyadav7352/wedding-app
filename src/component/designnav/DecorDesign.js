@@ -28,7 +28,7 @@ const DecorDesign =(props)=>{
                     />
                 )}
             </section>
-            <footer className='decor-footer'>ONTACT@MERAGI.COM | +91 7204663348 #39, NGEF Lane, 2nd Floor, Suite No.1146 Indiranagar, Bangalore, Karnataka, India 560 038</footer>
+            <footer className='decor-footer'>CONTWESDFERDACT@MANGALAM.COM | +91 7204663348 #39, NGEF Lane, 2nd Floor, Suite No.1146 Indiranagar, Bangalore, Karnataka, India 560 038</footer>
             </div>
         </div>
         </Body>

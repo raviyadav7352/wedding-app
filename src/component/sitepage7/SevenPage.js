@@ -1,4 +1,5 @@
 import React from 'react';
+import Body from '../bodycomponent/Body';
 import PakageCard from '../sitepage2/PakageCard';
 import './SevenPage.css';
 const SevenPage = (props) => {
@@ -13,8 +14,7 @@ const SevenPage = (props) => {
         { imgname: "wedding1", title: "Wedding & Reception", cost: "1,40,699" },
     ]
     return (
-        <React.Fragment>
-            <div className='page7'>
+            <Body className='page7'>
                 <h2 className='page7-heading'>Packages</h2>
                 <p className='page7-text'>Convenient packages & reliable pricing</p>
                 <section className='page7-section'>
@@ -27,8 +27,7 @@ const SevenPage = (props) => {
                         />
                     )}
                 </section>
-            </div>
-        </React.Fragment>
+            </Body>
     )
 }
 export default SevenPage;

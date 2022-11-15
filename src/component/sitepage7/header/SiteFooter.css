@@ -55,7 +55,7 @@
 .footer-foot-link a {
     text-decoration: none;
 }
-@media(min-width:200px) and (max-width:576px){
+@media(min-width:200px) and (max-width:400px){
     .footer-body {
             display: block;
         }
@@ -80,3 +80,28 @@
             padding: 0;
         }
     }
+    @media(min-width:400px) and (max-width:600px){
+        .footer-body {
+                display: block;
+            }
+        
+            .footer-head {
+                display: block;
+                width: 100%;
+            }
+        
+            .footer-list {
+                padding: 0;
+                display: block;
+                margin: 0;
+            }
+        
+            .copyright {
+                margin: 10px;
+            }
+        
+            .footer-foot-link {
+                display: block;
+                padding: 0;
+            }
+        }

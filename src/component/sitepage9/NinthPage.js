@@ -1,4 +1,5 @@
 import React from 'react';
+import Body from '../bodycomponent/Body';
 import ReviewCard from '../sitepage2/ReviewCard';
 import './NinthPage.css';
 const NinthPage = (props) => {
@@ -23,8 +24,7 @@ const NinthPage = (props) => {
         },
     ]
     return (
-        <React.Fragment>
-            <div className='page9'>
+            <Body className='page9'>
                 <h3 className='page9-heading'>Loved by customers</h3>
                 <section className='page9-section'>
                     {cardData.map(data =>
@@ -37,8 +37,7 @@ const NinthPage = (props) => {
                         />
                     )}
                 </section>
-            </div>
-        </React.Fragment>
+            </Body>
     )
 }
 export default NinthPage;
