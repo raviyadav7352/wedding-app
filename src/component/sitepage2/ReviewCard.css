@@ -51,7 +51,7 @@ box-shadow:  5px 5px 12px #b8b8b3,
 }
 @media (min-width:200px) and (max-width: 400px) {
     .rev-cardBody {
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
         margin: auto;
         

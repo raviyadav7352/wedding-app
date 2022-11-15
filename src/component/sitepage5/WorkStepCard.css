@@ -32,13 +32,24 @@
 @media (min-width:200px) and (max-width:400px){
     
     
-    .step-card-head {
-        font-size: 18px;
-        word-spacing: 0;
-        margin: 10px 0;
-        padding-top: 0;
-        font-weight: 600;
+    .step-card {
+        width: 40vw;
+        height: 13rem;
+        text-align: center;
+        position: relative;
     }
+    .step-card img {
+        height: 20vw;
+        width: 20vw;
+        border-radius: 20%;
+    }.step-card {
+        width: 11rem;
+        height: 11rem;
+        text-align: center;
+        position: relative;
+    }
+    
+    
 }
 @media (min-width:400px) and (max-width:600px){
     
